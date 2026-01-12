@@ -1,4 +1,4 @@
-```md
+
 # Spark Data Processing Pipeline
 
 A distributed data processing pipeline built using **Apache Spark** to handle
