@@ -1,12 +1,18 @@
 # Spark Data Processing Pipeline
 
-A distributed data processing pipeline built using Apache Spark to handle large-scale data transformation and analytics.
+A distributed data processing pipeline built using **Apache Spark** to handle
+large-scale data transformation and analytics, similar to real-world big data systems.
+
+---
 
 ## 🚀 Features
 - Distributed batch data processing
 - Data cleaning and transformation
-- Aggregations and analytical computations
+- Aggregations and analytics
 - Scalable Spark job execution
+- Fault-tolerant processing using Spark architecture
+
+---
 
 ## 🛠️ Tech Stack
 - Apache Spark
@@ -14,24 +20,30 @@ A distributed data processing pipeline built using Apache Spark to handle large-
 - Python
 - Hadoop (HDFS compatible)
 
+---
+
 ## 🏗️ Architecture
 
-The pipeline follows a distributed batch-processing architecture:
+The pipeline follows a **distributed batch-processing architecture**:
 
 - Data is ingested from source files (CSV / JSON / Parquet)
 - Apache Spark processes data in parallel across partitions
 - Transformations and aggregations are applied using Spark DataFrames
 - Final processed data is written to storage for analytics and reporting
 
-This design ensures scalability, fault tolerance, and efficient large-scale processing.
+This design ensures **scalability, fault tolerance, and efficient large-scale processing**.
+
+---
 
 ## 🔄 Workflow
 
-1. Load raw datasets into Spark DataFrames  
-2. Perform data cleaning (null handling, filtering, schema validation)  
-3. Apply transformations and aggregations  
-4. Execute Spark jobs in a distributed manner  
-5. Store processed output for downstream analytics  
+1. Load raw datasets into Spark DataFrames
+2. Perform data cleaning (null handling, filtering, schema validation)
+3. Apply transformations and aggregations
+4. Execute Spark jobs in a distributed manner
+5. Store processed output for downstream analytics
+
+---
 
 ## ▶️ How to Run
 
