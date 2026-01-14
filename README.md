@@ -41,6 +41,7 @@ This design ensures scalability, fault tolerance, and efficient large-scale proc
 - PySpark
 
 ### Steps
+
 ```bash
 # Clone the repository
 git clone https://github.com/AnishaB123/spark-data-processing-pipeline.git
@@ -48,8 +49,8 @@ cd spark-data-processing-pipeline
 
 # Run the Spark job
 spark-submit main.py
-```
 
+```
 ## 👩‍💻 Author
 **Anisha Reddy Bojja**  
 Master’s in Information Systems & Technology  
